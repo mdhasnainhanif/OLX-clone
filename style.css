@@ -1,0 +1,454 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.border{
+    border: 1px solid rgb(239, 134, 6) !important;
+}
+
+
+/*------------------ media query----------------- */
+
+
+
+@media screen and (max-width:768px) {
+
+    .tophead{
+        position: static !important;
+    }
+    .select{
+        margin-bottom: 8px;
+    }
+    .head_center{
+        margin-bottom: 8px;
+    }
+
+
+    /* cards */
+
+    .lastcard{
+        text-align: center;
+        margin: auto;
+    }
+
+    /* mob img */
+
+    .mob_img{
+        margin: 0 auto;
+        width: 50%;
+    }
+    .appsectionpara h2 {
+        text-align: center;
+    }
+    .appsectionpara p {
+        text-align: center;
+    }
+    .appiconsimg p {
+        text-align: center;
+    }
+
+}
+
+/* for cards */
+
+@media screen and (max-width:992px) {
+
+  .card{
+      margin-bottom: 16px;
+  }
+
+}
+
+
+/* for icons */
+
+
+@media screen and (max-width: 1170px) and (min-width: 768px)  {
+
+.appgallery{
+    margin-top: 8px;
+}
+
+}
+
+@media screen and (max-width:783px) {
+
+    .appgallery{
+        margin-bottom: 10px;
+    }
+    .appstore{
+        margin-bottom: 8px;
+    }
+  
+    
+    }
+
+
+    
+    @media screen and (max-width:430px) {
+
+        .copy_right{
+            display: none;
+        }
+      
+      }
+
+
+
+
+
+/*------------- tophead start ------------------ */
+
+/* logo color */
+
+.tophead{
+    background-color: #f7f8f8;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+._21d60d2f, ._83599f16 {
+    fill: #3a77ff;
+}
+.top_head{
+    display: flex;
+    list-style-type: none;
+    padding-left: 1rem;
+}
+.top_head li{
+    margin-top: 1rem;
+    margin-right: 40px;
+}
+.top_head li svg:hover{
+    cursor: pointer;
+}
+
+/*------------- tophead end ------------------ */
+
+/* --------------head start-------------- */
+
+.head{
+    align-items: center;
+    background-color: #f7f8f8;
+    padding-bottom: 10px;
+}
+
+select{
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #002f34;
+    height: 48px;
+    max-height: 100%;
+    cursor: pointer;
+    width: 100%;
+    font-size: 22px;
+}
+.selectsearchimg{
+    position: absolute;
+    left: 20px;
+    margin-top: 9px;
+}
+.head_center input{
+    color: #002f34;
+    font-size: 20px;
+    padding: 0px;
+    width: 100%;
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    resize: none;
+    position: relative;
+
+}
+.searchicon{
+    height: 48px;
+    border: 1px solid;
+    margin-right: -16px;
+    padding: 10px;
+    background: #002f34;
+    position: absolute;
+    /* right: 297px; */
+    margin-left: -48px;
+
+}
+.searchicon img{
+   /* position: absolute; */
+   right: 200px;
+}
+.head_center input:focus{
+    outline: none;
+}
+.head_right{
+    text-align: center;
+}
+.login{
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 2px solid #002f34 ;   
+}
+.login:hover{
+    border-bottom: none;
+    transition: 0.5s;
+    cursor: pointer;   
+}
+.rightbtn{
+    padding: 0px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* ----------------- navbar ------------------ */
+.catogaries{
+    background-color: #fff;
+}
+.allcatogaries{
+    list-style-type: none;
+}
+.allcatogaries a{
+    text-decoration: none;
+    color: #000;
+}
+.navitem:hover{
+    color: #0d6efd !important;
+    transition: 0.2s;
+}
+
+/* -------------- banner -------------- */
+
+.banner{
+    background-image: url(images/slider_img.jpg);
+    background-size: cover;
+    height: 250px;
+    background-position: center;
+}
+
+/* --------------- Toast ----------------- */
+
+.toast{
+    width: 60%;
+    margin: 20px auto;
+    box-shadow: none;
+    background-color: none;
+    border: none;
+}
+.toast-body{
+    padding: 0px;
+    position: relative;
+}
+
+.toast-body button.btn-close {
+    position: absolute;
+    right: 0;
+    font-size: 10px;
+}
+
+.toast-body img{
+    width: 100%;
+}
+
+
+
+/* --------------- cards ----------------- */
+
+
+.unique_container{
+    max-width: 1280px;
+}
+
+.merafont{
+    font-size: 13px;
+}
+.card-body{
+    position: relative;
+}
+.heart_icon{
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+.heart_icon i{
+   font-size: 22px;
+}
+.heart_icon i:hover{
+   cursor: pointer;
+}
+.featured_parent{
+    position: relative;
+}
+.featuredbox{
+    
+    position: absolute;
+    background-color: #FFCE32;
+    padding: 0px 10px;
+    bottom: 133px;
+    left: 10px;
+    color: #000;
+    border-radius: 4px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+}
+.featuredbox span{
+    font-size: 10px;
+    margin-top: -40px;
+    font-weight: 600;
+}
+.blue{
+    background-color: #3A77FF;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    height: 100%;
+}
+.blue p{
+    font-size: 14px;
+}
+.cardtitle{
+    padding: 0px 13px;
+}
+.start_selling{
+    width: 90%;
+    border: 1px solid;
+    padding: 10px 10px;
+    margin: auto;
+    margin-top: 107px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: transparent;
+}
+
+
+/* ------------------ laod more btn------------------  */
+
+.loadmorebtn button{
+    color: #002f34;
+    fill: #002f34;
+    background-color: #fff;
+    border: 2px solid #002f34;
+    padding: 10px 7px;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.loadmorebtn button:hover{
+    border: 3px solid #000;
+    height: 48px;
+}
+.loadmorebtn{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* ------------------ laod more btn End ------------------  */
+
+
+/*-------------------- app section ------------------- */
+.appsectionpara{
+    border-right: 2px solid rgba(0,47,52,.2);;
+}
+.appsectionpara h1{
+    color: #002f34;
+}
+
+.appsectionpara p{
+    font-size: 19px;
+    font-weight: 400;
+    color: #002f34;
+}
+.appiconsimg{
+    margin-top: 35px;
+}
+.appiconsimg ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+.appiconsimg ul li img{
+    cursor: pointer;
+}
+.blackicons{
+    padding: 0px !important;
+}
+
+/*------------- footer -------------- */
+
+
+.footer {
+    background-color: #EBEEEF;
+    padding: 20px 60px;
+    border-top: 1px solid rgba(0,47,52,.2);
+}
+
+.custom-btn {
+    background-color: #000;
+}
+
+.inner_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    width: 20%;
+}
+.one ul{
+    list-style: none;
+}
+.one ul h6{
+    color: #000;
+}
+.one ul li a{
+    text-decoration: none;
+    color: rgba(0,47,52,.64);
+    font-size: 14px;
+}
+.one ul li a:hover{
+    color: #000;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:786px) {
+
+    .inner_footer {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .one {
+        width: 33%;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+
+    .inner_footer {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .one {
+        width: 100%;
+    }
+}
+
+.copy_right {
+    background: #122f34;
+    height: 60px;
+    color: #fff;
+    text-align: right;
+}
+.text_copy {
+    line-height: 60px;
+    padding: 0px 30px;
+}
